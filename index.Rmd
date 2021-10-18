@@ -68,7 +68,7 @@ style_duo_accent(
   header_h1_font_size = "2.25rem",
 )
 
-folder <-"https://carlosyanez.github.io/"
+folder <-"https://carlosyanez.github.io/projects/"
 
 #metathis
 
