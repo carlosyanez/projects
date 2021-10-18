@@ -125,7 +125,7 @@ Analysis of bicycle utilisation in a big metropolitan area. Presentation created
 .just-text[
 Refinement of movie recommendation engine. Done as part of Data Science Professional Certificate MOOC (HarvardX on edX). Data sourced from movielens dataset.
 
-* [Report]https://github.com/carlosyanez/DS_Cert_Movielens-10-M-Recommendation/blob/master/Movielens_Recommender_Report.pdf)
+* [Report](https://github.com/carlosyanez/DS_Cert_Movielens-10-M-Recommendation/blob/master/Movielens_Recommender_Report.pdf)
 * [Code](https://github.com/carlosyanez/DS_Cert_Movielens-10-M-Recommendation)
 
 **Technology/Tools** : R, caret package
@@ -134,7 +134,6 @@ Refinement of movie recommendation engine. Done as part of Data Science Professi
 ]
 .right-plot[
 ![:centerscale 110%](`r str_c(folder,"img/","Recommendation-Engine-1024x506.png")`)
-
 ]
 
 ---
@@ -169,7 +168,7 @@ Application built to gather project data from Trello or Excel spreadsheets.]
 ]
 
 .right-plot[
-<img src="`r str_c(folder,"img/","pm_dashboardpng-1024x483.png")`" alt="drawing"  class="center" style="width:110%;"/>
+![:centerscale 110%](`r str_c(folder,"img/","pm_dashboardpng-1024x483.png")`)
 ]
 
 ---
@@ -188,7 +187,8 @@ Application developed as assignment for Masters of Data Analytics at the Univers
 ]
 ]
 .right-plot[
-<img src="`r str_c(folder,"img/","uofg_weather_app.png")`" class="center" style="width:110%;"/>
+![:centerscale 110%](`r str_c(folder,"img/","uofg_weather_app.png")`)
+
 ]
 
 
@@ -207,7 +207,7 @@ Additionally an R script was developed to download and prepare the data.
 ]
 ]
 .right-plot[
-<img src="`r str_c(folder,"img/","Covid_Tracker_Shiny-1024x515.png")`" alt="drawing"  class="center" style="width:110%;"/>
+![:centerscale 110%](`r str_c(folder,"img/","Covid_Tracker_Shiny-1024x515.png")`)
 ]
 
 ---
@@ -223,7 +223,7 @@ Sample service desk daily dashboard, created with Tableau Public.
 
 ]
 .right-plot[
-<img src="`r str_c(folder,"img/","Service-Desk-Dashboard-Tableau-1024x533.png")`" alt="drawing"  class="center" style="width:110%;"/>
+![:centerscale 110%](`r str_c(folder,"img/","Service-Desk-Dashboard-Tableau-1024x533.png")`)
 ]
 
 ---
@@ -240,7 +240,7 @@ Sample service desk daily dashboard, created with Power BI.
 ]
 ]
 .right-plot[
-<img src="`r str_c(folder,"img/","Service-Desk-Dashboard-PowerBI-1024x555.png")`" alt="drawing"  class="center" style="width:110%;"/>
+![:centerscale 110%](`r str_c(folder,"img/","Service-Desk-Dashboard-PowerBI-1024x555.png")`)
 ]
 ---
 # Visualisations (Tweets)
