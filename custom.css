@@ -1,7 +1,7 @@
 /* custom.css */
 
 /* two columns , text on the left, plot on the left*/
-  .left-text {
+.left-text {
     width: 45%;
     height: 92%;
     float: left;

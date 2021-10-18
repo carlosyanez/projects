@@ -119,6 +119,7 @@ Analysis of bicycle utilisation in a big metropolitan area. Presentation created
 ![:centerscale 110%](`r str_c(folder,"img/","Bike_Maintenance-1024x575.png")`)
 ]
 
+
 ---
 # (Yet Another) Movie Recommendation Engine
 .left-text[
