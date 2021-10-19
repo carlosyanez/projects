@@ -197,11 +197,13 @@ Application developed as assignment for Masters of Data Analytics at the Univers
 # Shiny Dashboard – Covid Tracker (Austria)
 .left-text[
 .just-text[
-Dashboard to track daily covid cases reported in Austria. Dashboard allows to filter by date and federal state. Includes charts tracking active cases, new infections, testing stats and hospital utilisation.
-Additionally an R script was developed to download and prepare the data.
+Dashboard to track daily covid cases reported in Austria. Dashboard allows to filter by date and federal state.
+Includes charts tracking active cases, new infections, testing statistics and hospital utilisation.
+
+Additionally, an R script was developed to download and prepare the data, which is run daily on Github Actions.
 
 * [Dashboard](https://carlosyanezs.shinyapps.io/Covid_in_Austria/)
-* [Code](https://github.com/carlosyanez/Covid-Austria-Tracker-Code)
+* [Code](https://github.com/carlosyanez/covid_austria_tracker)
 
 **Technology/Tools** : R Shiny, flexdashboard, plotly for R.
 
