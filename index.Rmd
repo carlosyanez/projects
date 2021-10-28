@@ -75,13 +75,13 @@ folder <-"https://carlosyanez.github.io/projects/"
 
 meta() %>%
   meta_general(
-    description = "Project Portfolio Presentation - Carlos Yáñez Santibáñez",
+    description = "Projects - Carlos Yáñez Santibáñez",
   ) %>% 
   meta_social(
-    title = "Project Portfolio Presentation - Carlos Yáñez Santibáñez",
+    title = "Projects - Carlos Yáñez Santibáñez",
     url = "https://www.carlosyanez.cl/projects/",
-    image = "https://carlosyanez.github.io/img/background.jpg",
-    image_alt = "Title Skid.",
+    image = "https://carlosyanez.github.io/projects/img/portfolio_card.jpg",
+    image_alt = "Projects Presentation",
     og_type = "website",
     og_author = "Carlos Yáñez Santibáñez",
     twitter_card_type = "summary_large_image",
@@ -185,6 +185,43 @@ Sample service desk daily dashboard, created with Power BI.
 ![:centerscale 110%](`r str_c(folder,"img/","Service-Desk-Dashboard-PowerBI-1024x555.png")`)
 ]
 ---
+# Custom Power BI Visual with R
+.left-text[
+.just-text[
+Sample service desk daily dashboard, created with Power BI.
+]
+
+* [Code](https://github.com/carlosyanez/pbiviclga)
+
+
+**Technology/Tools** : Power BI, [echarts4r](https://echarts4r.john-coene.com/), [aussiemaps](https://carlosyanez.github.io/aussiemaps/) 
+
+
+]
+.right-plot[
+![:centerscale 110%](https://github.com/carlosyanez/pbiviclga/raw/main/example/example.png)
+]---
+# Nut-free Foods Search
+.left-text[
+.just-text[
+Stastic dashboard to present and search nut-free foods in selected countries, allowing to filter by other allergens.
+
+Data obtained from the [Open Foods Facts](https://world.openfoodfacts.org/), which includes downloading and processing to tag allergens in ingredients list (free text)
+]
+
+* [Code](https://github.com/carlosyanez/nutfree)
+* [Demo](https://carlosyanez.github.io/nutfree/html/index.html#display=nut_free_foods&nrow=1&ncol=1&arr=row&pg=1&labels=&sort=&filter=&sidebar=&fv=)
+
+
+**Technology/Tools** : R, trelliscopejs
+
+
+]
+.right-plot[
+![:centerscale 110%](`r str_c(folder,"img/","nutfree.png")`)
+]
+
+---
 # Visualisations (Tweets)
 
 Charts usually shared on .emp-italic[[Twitter](https://twitter.com/carlosyanez)].
@@ -210,22 +247,7 @@ Charts usually shared on .emp-italic[[Twitter](https://twitter.com/carlosyanez)]
 ]
 ]
 
----
-# Custom Power BI Visual with R
-.left-text[
-.just-text[
-Sample service desk daily dashboard, created with Power BI.
 
-* [Code](https://github.com/carlosyanez/pbiviclga)
-
-
-**Technology/Tools** : Power BI,[echarts4r](https://echarts4r.john-coene.com/),[aussiemaps](https://carlosyanez.github.io/aussiemaps/) 
-
-]
-]
-.right-plot[
-![:centerscale 110%](https://github.com/carlosyanez/pbiviclga/raw/main/example/example.png)
-]
 ---
 class: center, inverse, middle,title-slide
 # .huge[Analysis]
