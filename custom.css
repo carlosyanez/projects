@@ -49,6 +49,7 @@
   clear: both;
 }
 
+
 .column-third {
   float: left;
   width: 33%;
@@ -65,5 +66,10 @@
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+
+.huge {
+  font-size: 250%;
 }
 
