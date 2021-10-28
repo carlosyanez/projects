@@ -72,4 +72,19 @@
 .huge {
   font-size: 250%;
 }
+.large {
+  font-size: 150%;
+}
+
+.small {
+  font-size: 70%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+.titlefont {
+      font-family: 'Ubuntu', sans-serif;
+}
+
+
+
 

@@ -1,9 +1,9 @@
 ---
-title: "Carlos Yáñez Santibáñez"
-subtitle: "Projects <br/> <small>(press 'o' for tile view, 'f' for full screen)</small>"  
+title: ".large[Carlos Yáñez Santibáñez]"
+subtitle: ".large[Projects] <br/> .small[(press 'o' for tile view, 'f' for full screen)]"  
 output:
   xaringan::moon_reader:
-    css: [xaringan-themer.css,custom.css]
+    css: [xaringan-themer.css,"ninjutsu",custom.css]
     lib_dir: libs
     chakra: libs/remark-latest.min.js
     nature:
@@ -15,7 +15,7 @@ output:
       countIncrementalSlides: true
       beforeInit: "macro.js"
 ---
-
+class: center, inverse, middle,title-slide
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
@@ -52,6 +52,7 @@ xaringanExtra::use_panelset()
 #library(xaringanthemer)
 
 text_font   <- "Roboto"
+header_font <- "Ubuntu"
 prim_colour <- "#222222"
 sec_colour <- "#1b0694"
 font_size <- 11
@@ -60,7 +61,7 @@ style_duo_accent(
   primary_color = prim_colour,
   secondary_color = sec_colour,
   inverse_header_color = "#FFFFFF",
-  header_font_google = google_font(text_font),
+  header_font_google = google_font(header_font),
   text_font_google   = google_font(text_font, "400", "400i", "600i", "700"),
   code_font_google   = google_font("Fira Mono"),
   title_slide_background_image="img/background.jpg",
@@ -90,7 +91,7 @@ meta() %>%
 ```
 
 
-class: center, inverse, middle,title-slide
+<script src="https://kit.fontawesome.com/8f75b0d3b3.js" crossorigin="anonymous"></script> 
 # .huge[Visualisation]
 ---
 # PM Dashboard with Shiny
@@ -325,4 +326,42 @@ Markdown template to create reports for Data Analytics programmes at the Univers
 .right-plot[
 ![:centerscale 50%](`r str_c(folder,"img/","uofgtemplate.png")`)
 ]
+
+
+---
+#  customthemes <img src="https://github.com/carlosyanez/customthemes/raw/main/img/hexSticker.png" width = "10%" height = "10%" align="right" />
+
+.left-text[.just-text[
+
+Package with custom ggplot theming and other auxiliary functions for personal use creating charts and reports.
+
+* [Package page](https://carlosyanez.github.io/customthemes)
+
+**Technology/Tools** : R, ggplot, systemsfonts
+
+]]
+.right-plot[
+![:centerscale 110%](https://github.com/carlosyanez/customthemes/raw/main/hex/logo.png)
+]
+
+---
+class: split-four
+
+
+.column.bg-main1[.content.vmiddle.center.large[
+      <i class="fas fa-home fa-3x"></i> <br/>
+      [www.carlosyanez.cl](https:://www.carlosyanez.cl)
+     ]]
+.column.bg-main1[.content.vmiddle.center.large[
+       <i class="fab fa-github fa-3x"></i> <br/>
+       [carlosyanez](www.github.com/carlosyanez/)
+     ]]
+.column.bg-main1[.content.vmiddle.center.large[
+       <i class="fab fa-linkedin-in fa-3x"></i> </br>
+       [in/carlosyanez](https://www.linkedin.com/in/carlosyanez/)
+     ]]
+.column.bg-main1[.content.vmiddle.center.large[
+       <i class="fab fa-twitter fa-3x"></i><br/>
+       [@carlosyanez](https://twitter.com/carlosyanez)
+     ]]
 
