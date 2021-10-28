@@ -350,11 +350,11 @@ class: split-four
 
 .column.bg-main1[.content.vmiddle.center.large[
       <i class="fas fa-home fa-3x"></i> <br/>
-      [www.carlosyanez.cl](https:://www.carlosyanez.cl)
+      [www.carlosyanez.cl](https://www.carlosyanez.cl)
      ]]
 .column.bg-main1[.content.vmiddle.center.large[
        <i class="fab fa-github fa-3x"></i> <br/>
-       [carlosyanez](www.github.com/carlosyanez/)
+       [carlosyanez](https://www.github.com/carlosyanez/)
      ]]
 .column.bg-main1[.content.vmiddle.center.large[
        <i class="fab fa-linkedin-in fa-3x"></i> </br>
