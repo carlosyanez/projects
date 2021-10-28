@@ -323,6 +323,6 @@ Markdown template to create reports for Data Analytics programmes at the Univers
 
 ]]
 .right-plot[
-![:centerscale 80%](`r str_c(folder,"img/","uofgtemplate.png")`)
+![:centerscale 50%](`r str_c(folder,"img/","uofgtemplate.png")`)
 ]
 
