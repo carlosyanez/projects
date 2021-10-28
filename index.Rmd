@@ -204,16 +204,16 @@ Sample service desk daily dashboard, created with Power BI.
 # Nut-free Foods Search
 .left-text[
 .just-text[
-Stastic dashboard to present and search nut-free foods in selected countries, allowing to filter by other allergens.
+Static dashboard to present and search nut-free foods in selected countries, allowing to filter by other allergens.
 
 Data obtained from the [Open Foods Facts](https://world.openfoodfacts.org/), which includes downloading and processing to tag allergens in ingredients list (free text)
 ]
 
 * [Code](https://github.com/carlosyanez/nutfree)
-* [Demo](https://carlosyanez.github.io/nutfree/html/index.html#display=nut_free_foods&nrow=1&ncol=1&arr=row&pg=1&labels=&sort=&filter=&sidebar=&fv=)
+* [Dashboard](https://carlosyanez.github.io/nutfree/html/index.html#display=nut_free_foods&nrow=1&ncol=1&arr=row&pg=1&labels=&sort=&filter=&sidebar=&fv=)
 
 
-**Technology/Tools** : R, trelliscopejs
+**Technology/Tools** : R, [trelliscopejs](https://ryanhafen.com/blog/trelliscopejs/)
 
 
 ]
