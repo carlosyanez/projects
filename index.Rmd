@@ -79,7 +79,7 @@ meta() %>%
   ) %>% 
   meta_social(
     title = "Projects - Carlos Yáñez Santibáñez",
-    url = "https://www.carlosyanez.cl/projects-2/",
+    url   = "https://carlosyanez.github.io/projects/",
     image = "https://carlosyanez.github.io/projects/img/portfolio_card.png",
     image_alt = "Projects Presentation",
     og_type = "website",
