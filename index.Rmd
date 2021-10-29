@@ -1,5 +1,5 @@
 ---
-title: ".large[Carlos Yáñez Santibáñez]"
+title: "Carlos Yáñez Santibáñez"
 subtitle: ".large[Projects] <br/> .small[(press 'o' for tile view, 'f' for full screen)]"  
 output:
   xaringan::moon_reader:
@@ -66,7 +66,9 @@ style_duo_accent(
   code_font_google   = google_font("Fira Mono"),
   title_slide_background_image="img/background.jpg",
   title_slide_text_color="white",
-  header_h1_font_size = "2.25rem",
+  header_h1_font_size = "3.5rem",
+  header_h2_font_size = "2.25rem",
+  text_slide_number_font_size="0.6rem"
 )
 
 folder <-"https://carlosyanez.github.io/projects/"
@@ -87,14 +89,16 @@ meta() %>%
     twitter_card_type = "summary_large_image",
     twitter_creator = "@carlosyanez"
   )
+#xaringanExtra::use_share_again()
 
 ```
 
 
 <script src="https://kit.fontawesome.com/8f75b0d3b3.js" crossorigin="anonymous"></script> 
-# .huge[Visualisation]
+
+## .huge[Visualisation]
 ---
-# PM Dashboard with Shiny
+## PM Dashboard with Shiny
 .left-text[
 .just-text[
 Proof of concept at building a simple reporting dashboard for a PM/PMO handling multiple projects, allowing both a “synoptic” for reporting and a deep dive for day-to-day project management.
@@ -112,19 +116,19 @@ Application built to gather project data from Trello or Excel spreadsheets.]
 ]
 
 ---
-# Historic UK Weather Report with Shiny
+## Historic UK Weather Report with Shiny
 
 .left-text[
 .just-text[
 Application developed as assignment for Masters of Data Analytics at the University of Glasgow, displaying historical data for weather stations across the UK. Chart changes based on stations and variables selected. Dynamic MS Word report generated on-demand, based on selection. 
-
+]
 
 * [Application](https://carlosyanezs.shinyapps.io/Weather_App_UoG/)
 * [Code](https://github.com/carlosyanez/MSc_DA_R_Project)
 
 
 **Technology/Tools** : R Shiny, rmarkdown, officer, ggiraph, leaflet
-]
+
 ]
 .right-plot[
 ![:centerscale 110%](`r str_c(folder,"img/","uofg_weather_app.png")`)
@@ -133,13 +137,14 @@ Application developed as assignment for Masters of Data Analytics at the Univers
 
 
 ---
-# Shiny Dashboard – Covid Tracker (Austria)
+## Shiny Dashboard – Covid Tracker (Austria)
 .left-text[
 .just-text[
 Dashboard to track daily covid cases reported in Austria. Dashboard allows to filter by date and federal state.
 Includes charts tracking active cases, new infections, testing statistics and hospital utilisation.
 
 Additionally, an R script was developed to download and prepare the data, which is run daily on Github Actions.
+]
 
 * [Dashboard](https://carlosyanezs.shinyapps.io/Covid_in_Austria/)
 * [Code](https://github.com/carlosyanez/covid_austria_tracker)
@@ -147,17 +152,16 @@ Additionally, an R script was developed to download and prepare the data, which 
 **Technology/Tools** : R Shiny, flexdashboard, ggiraph.
 
 ]
-]
 .right-plot[
 ![:centerscale 110%](`r str_c(folder,"img/","Covid_Tracker_Shiny-1024x515.png")`)
 ]
 
 ---
-# Service Desk Dashboard with Tableau
+## Service Desk Dashboard with Tableau
 .left-text[
 Sample service desk daily dashboard, created with Tableau Public.
 
-* [Dashboard](https://public.tableau.com/profile/carlos.y.ez.santib.ez#!/vizhome/ServiceDeskDashboard_16061702442780/TicketTracking)
+* [Dashboard](https://public.tableau.com/profile/carlos.y.ez.santib.ez##!/vizhome/ServiceDeskDashboard_16061702442780/TicketTracking)
 * [R Code](https://github.com/carlosyanez/Snippets/tree/main/Incident_Log)
 
 **Technology/Tools** : Tools/Technology	Tableau Public, R (data load)
@@ -169,23 +173,23 @@ Sample service desk daily dashboard, created with Tableau Public.
 ]
 
 ---
-# Service Desk Dashboard with PowerBI
+## Service Desk Dashboard with PowerBI
 .left-text[
 .just-text[
 Sample service desk daily dashboard, created with Power BI.
-
+]
 * [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMmU5ODlkZWMtZDcwMi00OTM1LTlhZmEtZmEzOTdhNzZjODQxIiwidCI6IjQyZDhhYmJhLTMzYTAtNDU1NS05NWY3LWU5YmE1YzZjYzFkNyIsImMiOjl9)
 
 
 **Technology/Tools** : Power BI
 
-]
+
 ]
 .right-plot[
 ![:centerscale 110%](`r str_c(folder,"img/","Service-Desk-Dashboard-PowerBI-1024x555.png")`)
 ]
 ---
-# Custom Power BI Visual with R
+## Custom Power BI Visual with R
 .left-text[
 .just-text[
 Sample service desk daily dashboard, created with Power BI.
@@ -200,8 +204,9 @@ Sample service desk daily dashboard, created with Power BI.
 ]
 .right-plot[
 ![:centerscale 110%](https://github.com/carlosyanez/pbiviclga/raw/main/example/example.png)
-]---
-# Nut-free Foods Search
+]
+---
+## Nut-free Foods
 .left-text[
 .just-text[
 Static dashboard to present and search nut-free foods in selected countries, allowing to filter by other allergens.
@@ -210,7 +215,7 @@ Data obtained from the [Open Foods Facts](https://world.openfoodfacts.org/), whi
 ]
 
 * [Code](https://github.com/carlosyanez/nutfree)
-* [Dashboard](https://carlosyanez.github.io/nutfree/html/index.html#display=nut_free_foods&nrow=1&ncol=1&arr=row&pg=1&labels=&sort=&filter=&sidebar=&fv=)
+* [Dashboard](https://carlosyanez.github.io/nutfree/html/index.html##display=nut_free_foods&nrow=1&ncol=1&arr=row&pg=1&labels=&sort=&filter=&sidebar=&fv=)
 
 
 **Technology/Tools** : R, [trelliscopejs](https://ryanhafen.com/blog/trelliscopejs/)
@@ -222,7 +227,7 @@ Data obtained from the [Open Foods Facts](https://world.openfoodfacts.org/), whi
 ]
 
 ---
-# Visualisations (Tweets)
+## Visualisations (Tweets)
 
 Charts usually shared on .emp-italic[[Twitter](https://twitter.com/carlosyanez)].
 
@@ -250,19 +255,20 @@ Charts usually shared on .emp-italic[[Twitter](https://twitter.com/carlosyanez)]
 
 ---
 class: center, inverse, middle,title-slide
-# .huge[Analysis]
+## .huge[Analysis]
 ---
-# Mock Presentation – Bicycle Maintenance
+## Mock Presentation – Bicycle Maintenance
 .left-text[
 .just-text[
 Analysis of bicycle utilisation in a big metropolitan area. Presentation created for MOOC (Strategic Business Analytics Specialization, by ESSEC Business School on Coursera).
+]
 
 * [Report](https://github.com/carlosyanez/Bicycle-Maintenance/blob/master/Bike_Maintenance.pdf)
 * [Code](https://github.com/carlosyanez/edx_bicycle_maintenance)
 
 **Technology/Tools** : R Markdown , converted to Power Point presentation
 
-]
+
 ]
 .right-plot[
 ![:centerscale 110%](`r str_c(folder,"img/","Bike_Maintenance-1024x575.png")`)
@@ -270,10 +276,11 @@ Analysis of bicycle utilisation in a big metropolitan area. Presentation created
 
 
 ---
-# (Yet Another) Movie Recommendation Engine
+## (Yet Another) Movie Recommendation Engine
 .left-text[
 .just-text[
 Refinement of movie recommendation engine. Done as part of Data Science Professional Certificate MOOC (HarvardX on edX). Data sourced from movielens dataset.
+]
 
 * [Report](https://github.com/carlosyanez/DS_Cert_Movielens-10-M-Recommendation/blob/master/Movielens_Recommender_Report.pdf)
 * [Code](https://github.com/carlosyanez/DS_Cert_Movielens-10-M-Recommendation)
@@ -281,22 +288,21 @@ Refinement of movie recommendation engine. Done as part of Data Science Professi
 **Technology/Tools** : R, caret package
 
 ]
-]
 .right-plot[
 ![:centerscale 110%](`r str_c(folder,"img/","Recommendation-Engine-1024x506.png")`)
 ]
 
 ---
-# Tweet Classification – Catastrophe or Not?
+## Tweet Classification – Catastrophe or Not?
 .left-text[
 .just-text[
 Simple machine learning model used to predict whether a particular tweet is related to a disaster/catastrophic event. Data set source here. Report created for Data Science Professional Certificate MOOC (HarvardX on edX).
+]
 
 * [Report](https://github.com/carlosyanez/DS_Cert_Tweets_Catastrophe_Classification/blob/master/Twitter_Classifier.pdf)
 * [Coded](https://github.com/carlosyanez/DS_Cert_Tweets_Catastrophe_Classification)
 
-**Technology/Tools** : 	R , caret package
-]
+**Technology/Tools** : 	R, caret package.
 
 ]
 .right-plot[
@@ -305,63 +311,65 @@ Simple machine learning model used to predict whether a particular tweet is rela
 ]
 ---
 class: center, inverse, middle,title-slide
-# .huge[R Packages]
+## .huge[R Packages]
 ---
-# aussiemaps <img src="https://github.com/carlosyanez/aussiemaps/raw/master/img/hexSticker.png" width = "10%" height = "10%" align="right" />
+## aussiemaps <img src="https://github.com/carlosyanez/aussiemaps/raw/master/img/hexSticker.png" width = "10%" height = "10%" align="right" />
 
 .left-text[.just-text[
 Package that provides Australian LGA, suburbs and Postal Area maps directly in R, without any need to download and process shapefiles.
+]
 
 * [Package page](https://carlosyanez.github.io/aussiemaps)
 
 **Technology/Tools** : R, sf
 
-]]
+]
 .right-plot[
 ![:centerscale 80%](https://github.com/carlosyanez/aussiemaps/raw/master/img/map2.png)
 ]
 ---
-# just.install <img src="https://github.com/carlosyanez/just.install/raw/main/img/hexSticker.png" width = "10%" height = "10%" align="right" />
+## just.install <img src="https://github.com/carlosyanez/just.install/raw/main/img/hexSticker.png" width = "10%" height = "10%" align="right" />
 
 .left-text[.just-text[
 Package that provides one simple function that checks if existing packages and install if not there. It does not attach any library (unlike __library()__ or __require()__)  Supports CRAN and CRAN-like repositories, Github and Bioconductor. 
+]
 
 * [Package page](https://carlosyanez.github.io/just.install)
 
 **Technology/Tools** : R
 
-]]
+]
 .right-plot[
 
 ]
 ---
-#  uofgdataanalyticsreport <img src="https://github.com/carlosyanez/uofgdataanalyticsreport/raw/main/img/hexSticker.png" width = "10%" height = "10%" align="right" />
+##  uofgdataanalyticsreport <img src="https://github.com/carlosyanez/uofgdataanalyticsreport/raw/main/img/hexSticker.png" width = "10%" height = "10%" align="right" />
 
 .left-text[.just-text[
 Markdown template to create reports for Data Analytics programmes at the University of Glasgow.
-
+]
 * [Package page](https://carlosyanez.github.io/uofgdataanalyticsreport)
 
 **Technology/Tools** : R, [indiedown](https://cynkra.github.io/indiedown/index.html)
 
-]]
+]
 .right-plot[
 ![:centerscale 50%](`r str_c(folder,"img/","uofgtemplate.png")`)
 ]
 
 
 ---
-#  customthemes <img src="https://github.com/carlosyanez/customthemes/raw/main/img/hexSticker.png" width = "10%" height = "10%" align="right" />
+##  customthemes <img src="https://github.com/carlosyanez/customthemes/raw/main/img/hexSticker.png" width = "10%" height = "10%" align="right" />
 
 .left-text[.just-text[
 
 Package with custom ggplot theming and other auxiliary functions for personal use creating charts and reports.
-
+]
 * [Package page](https://carlosyanez.github.io/customthemes)
 
 **Technology/Tools** : R, ggplot, systemsfonts
 
-]]
+]
 .right-plot[
 ![:centerscale 110%](https://github.com/carlosyanez/customthemes/raw/main/hex/logo.png)
 ]
