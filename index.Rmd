@@ -331,7 +331,10 @@ Package that provides Australian LGA, suburbs and Postal Area maps directly in R
 ## just.install <img src="https://github.com/carlosyanez/just.install/raw/main/img/hexSticker.png" width = "10%" height = "10%" align="right" />
 
 .left-text[.just-text[
-Package that provides one simple function that checks if existing packages and install if not there. It does not attach any library (unlike __library()__ or __require()__)  Supports CRAN and CRAN-like repositories, Github and Bioconductor. 
+
+[![CRAN ago](https://www.r-pkg.org/badges/version-ago/just.install)](https://www.r-pkg.org/badges/version-ago/just.install)
+
+Package that provides one simple function that checks if existing packages and install if not there. It does not attach any library (unlike __library()__ or __require()__)  Supports CRAN and other repositories. 
 ]
 
 * [Package page](https://carlosyanez.github.io/just.install)
