@@ -411,21 +411,21 @@ Package with custom ggplot theming and other auxiliary functions for personal us
 class: split-four
 
 
-.column.bg-main1[.content.vmiddle.center.large[
+.column.bg-main1[.content.vmiddle.center[
       <i class="fas fa-home fa-3x"></i> <br/>
       [www.carlosyanez.id.au](https://www.carlosyanez.id.au) <br/>
       [www.carlosyanez.cl](https://www.carlosyanez.cl)
      ]]
-.column.bg-main1[.content.vmiddle.center.large[
+.column.bg-main1[.content.vmiddle.center[
        <i class="fab fa-github fa-3x"></i> <br/>
        [carlosyanez](https://www.github.com/carlosyanez/)
      ]]
-.column.bg-main1[.content.vmiddle.center.large[
+.column.bg-main1[.content.vmiddle.center[
        <i class="fab fa-linkedin-in fa-3x"></i> </br>
        [in/carlosyanez](https://www.linkedin.com/in/carlosyanez/)
      ]]
-.column.bg-main1[.content.vmiddle.center.large[
-       <i class="fab fa-twitter fa-3x"></i><br/>
-       [@carlosyanez](https://twitter.com/carlosyanez)
+.column.bg-main1[.content.vmiddle.center[
+       <i class="fab fa-mastodon fa-3x"></i><br/>
+       [@carlosyanez@fosstodon.org](https://fosstodon.org/@carlosyanez)
      ]]
 
