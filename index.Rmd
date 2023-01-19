@@ -313,19 +313,49 @@ Simple machine learning model used to predict whether a particular tweet is rela
 class: center, inverse, middle,title-slide
 ## .huge[R Packages]
 ---
+## auscensus <img src="https://github.com/carlosyanez/auscensus/raw/main/img/hexSticker.png" width = "10%" height = "10%" align="right" />
+
+.left-text[.just-text[
+Package to interact with extract data from ABS Census Data Packs, from 2006 onwards.
+]
+
+* [Package page](https://carlosyanez.github.io/auscensus)
+
+**Technology/Tools** : R, Parquet.
+
+]
+.right-plot[
+![:centerscale 80%](https://carlosyanez.github.io/aussiemaps/articles/get-data-unnamed-chunk-7-1.png)
+]
+---
+## auspol <img src="https://github.com/carlosyanez/auspol/raw/main/img/hexSticker.png" width = "10%" height = "10%" align="right" />
+
+.left-text[.just-text[
+Package to present results and plots for Australian Federal Election Results, from 2007 onwards.
+]
+
+* [Package page](https://carlosyanez.github.io/auspol)
+
+**Technology/Tools** : R, ggpackets, Parquet.
+
+]
+.right-plot[
+![:centerscale 80%](https://carlosyanez.github.io/auspol/articles/house-preference-flowplot2-1.png)
+]
+---
 ## aussiemaps <img src="https://github.com/carlosyanez/aussiemaps/raw/master/img/hexSticker.png" width = "10%" height = "10%" align="right" />
 
 .left-text[.just-text[
-Package that provides Australian LGA, suburbs and Postal Area maps directly in R, without any need to download and process shapefiles.
+Package that provides customisable Australian maps directly in R, without any need to download and process shapefiles.
 ]
 
 * [Package page](https://carlosyanez.github.io/aussiemaps)
 
-**Technology/Tools** : R, sf
+**Technology/Tools** : R, Simple Features, Parquet, GeoPackage.
 
 ]
 .right-plot[
-![:centerscale 80%](https://github.com/carlosyanez/aussiemaps/raw/master/img/map2.png)
+![:centerscale 80%](https://carlosyanez.github.io/aussiemaps/articles/get-data-unnamed-chunk-2-1.png)
 ]
 ---
 ## just.install <img src="https://github.com/carlosyanez/just.install/raw/main/img/hexSticker.png" width = "10%" height = "10%" align="right" />
